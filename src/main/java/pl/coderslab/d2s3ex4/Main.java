@@ -39,10 +39,12 @@ public class Main {
                 .forEach(System.out::println);
         System.out.println("");
 
+
         System.out.println("============p4================");
 
         int total = words.stream().mapToInt(String::length).sum();
         System.out.println(total);
+
 
         System.out.println("============p5================");
 
